@@ -1,0 +1,55 @@
+/*===== POSITIONING =====*/
+
+body {
+  background-color: #250458;
+}
+
+div {
+  border: 3px dotted gray;
+}
+
+#titleBox {
+  width: 300px;
+  height: 150px;
+  background-color:#C6FF13;
+  border-radius: 10px;
+  float: right;
+}
+
+.bobble {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  float: right;
+  background-color: #C6FF13;
+  background-image: radial-gradient(farthest-corner at 64px 30px, #FAFF95 10% , #C6FF13 80%);
+  border-radius: 50%; -webkit-animation: pulseDiv 4s infinite,
+  bounce 3s infinite;
+}
+
+.smallBobble {
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  float: left;
+  background-color: #C6FF13;
+  background-image: radial-gradient(farthest-corner at 64px 30px, #FAFF95 10% , #C6FF13 80%);
+  border-radius: 50%; -webkit-animation: pulseDiv 4s infinite,
+  bounce 3s infinite;
+}
+
+/*@-webkit-keyframes pulseDiv {
+  0 % {
+    box-shadow: 1px 1px 10px #35D801}
+  50% {box-shadow: 1px 1px 40px #FAFF95
+  }
+  100 % {
+    box-shadow: 1px 1px 2px #35D801}
+}
+
+@-webkit-keyframes bounce {
+  0% { margin: 40px auto;}
+  50% { margin: 30px auto;}
+  100% { margin: 40px auto;}
+}
+*/
