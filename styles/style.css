@@ -48,6 +48,19 @@ div {
 /*------- STYLING ------*/
 /*======================*/
 
+h1 {
+  font-family: Codystar, cursive;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0px;
+  src: local('Codystar'), url(http://fonts.gstatic.com/s/codystar/v4/vO78uQGcYk_rDbnNA1ruZHYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+}
+
+h2 {
+  margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
 #titleBox {
   background-color:#C6FF13;
   border-radius: 10px;
