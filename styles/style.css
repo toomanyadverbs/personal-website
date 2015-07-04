@@ -67,6 +67,10 @@ div {
   bounce 3s infinite;
 }
 
+.footer {
+  background-color: #C6FF13;
+}
+
 /*@-webkit-keyframes pulseDiv {
   0 % {
     box-shadow: 1px 1px 10px #35D801}
