@@ -2,10 +2,6 @@
 /*----- POSITIONING ----*/
 /*======================*/
 
-body {
-  background-color: #250458;
-}
-
 .row {
   display: -mox-flex;
   display: -webkit-flex;
@@ -45,6 +41,10 @@ body {
 /*------- STYLING ------*/
 /*======================*/
 
+body {
+  background-color: #281D48;
+}
+
 div {
   border: 1px dotted gray;
 }
@@ -53,35 +53,37 @@ h1 {
   font-family: Codystar, cursive;
   font-style: normal;
   font-weight: 400;
+  color: #FCFFC8;
   margin: 0px;
   src: local('Codystar'), url(http://fonts.gstatic.com/s/codystar/v4/vO78uQGcYk_rDbnNA1ruZHYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
 }
 
 h2 {
   margin-top: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Codystar, cursive;
+  margin: 40% 20%;
 }
 
 h3 {
   font-family: 'Open Sans', sans-serif;
-  margin: 40% 25%;
+  margin-top: 0px;
 }
 
 #titleBox {
-  background-color:#C6FF13;
+  background-color:#E7E968;
   border-radius: 10px;
 }
 
 .bobble {
   background-color: #C6FF13;
-  background-image: radial-gradient(farthest-corner at 64px 30px, #FAFF95 10% , #C6FF13 80%);
+    background-image: radial-gradient(farthest-corner at 60% 30%, #FCFFC8 20% , #E7E968 80%);
   border-radius: 50%; -webkit-animation: pulseDiv 4s infinite,
   bounce 3s infinite;
 }
 
 .smallBobble {
   background-color: #C6FF13;
-  background-image: radial-gradient(farthest-corner at 64px 30px, #FAFF95 10% , #C6FF13 80%);
+  background-image: radial-gradient(farthest-corner at 60% 30%, #FCFFC8 10% , #E7E968 80%);
   border-radius: 50%; -webkit-animation: pulseDiv 4s infinite,
   bounce 3s infinite;
 }
@@ -117,7 +119,7 @@ h3 {
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
   border-radius: 20px;
-  background: #C6FF13;
+  background: #EDFBA8;
 /*  background: -moz-linear-gradient(#fff, #999);
   background: -webkit-linear-gradient(#fff, #999);
   background: -o-linear-gradient(#fff, #999);*/
