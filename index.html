@@ -6,38 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Lindsey Grimes, Web Developer</title>
-    <link rel="stylesheet" href="styles/styles.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
 
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-6">
-          <div class="title"><h1>hello!</h1><h4>I'm Lindsey Grimes</h4></div>
+          <div class="title"><h1>hello!</h1></div>
         </div>
         <div class="col-xs-12 col-md-6">
-          <h3>I'm a newly-minted full stack Web Developer who’s focused on creating websites that please the both eye and the brain. I live in Somerville, MA and work in the Boston area.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+        </div>
+        <div class="col-xs-12 col-md-6 minibio">
+          <h4>I'm Lindsey Grimes.</h4>
+          <h4>I'm a newly-minted full stack Web Developer who’s focused on creating websites that please the both eye and the brain.</h4>
+          <h4>I live in Somerville, MA and work in the Boston area.</h4>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row backgroundImg">
+    <div class="container backgroundImg">
+      <div class="row">
         <div class="col-xs-12 col-md-4">
-          <div class="menubutton">About Me</div>
+          <div class="menubutton">
+            <a href="#" class="mybtn btn" data-toggle="modal" data-target="#modalAbout">about me</a>
+          </div>
         </div>
         <div class="col-xs-12 col-md-4">
-          <div class="menubutton">Projects</div>
+          <div class="menubutton">
+            <a href="#" class="mybtn btn" data-toggle="modal" data-target="#modalProjects">projects</a></div>
         </div>
         <div class="col-xs-12 col-md-4">
-          <div class="menubutton">Contact Me</div>
+          <div class="menubutton">
+            <a href="#" class="mybtn btn" data-toggle="modal" data-target="#modalContact">contact me</a></div>
         </div>
       </div>
     </div>
 
-    <footer class="footer">
+    <footer class="myft footer">
       <div class="container">
         <p class="text-muted">
         LinkedIn | PDF of my resume | GitHub | Github Repo for this Website |</p>
@@ -45,13 +58,105 @@
     </footer>
 
 
+<!-- MODALS -->
+  <div class="modal fade" id="modalAbout" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">About Me</h4>
+        </div>
+        <div class="modal-body">
+          <h3>Bio</h3>
+      <p>I just graduated from General Assembly's Web Development Immersive, a 12-week full-time bootcamp designed to stuff as much practical web dev knowledge as can fit into its students' brains. I've been dabbling in HTML/CSS/Wordpress designs since I was in middle school, so I was delighted to finally dive into web development head-on. I have learned an amazing amount in three months, and while I know I have much more to tackle, I’m excited to go out and put my knowledge to use improving the Web.</p>
 
+      <h3>My skills</h3>
+      <ul>
+      <li>HTML5 CSS3 JavaScript</li>
+      <li>Git / GitHub</li>
+      <li>MongoDB / Mongoose Express Node.js Angular.js</li>
+      <li>Ruby / Ruby on Rails PostgreSQL</li>
+      </ul>
+
+      Other Tools:
+      <ul>
+      <li>Bootstrap, Stripe API, Ace</li>
+      <li>Jade, Stylus, Jasmine</li>
+      <li>Heroku, MongoLab</li>
+      <li>Photoshop and basic image editing, basic graphic design</li>
+      <li>(+ WordPress, [in-company] Content Management Systems)</li>
+      </ul>
+
+      <h4>RESUME (downloadable PDF)</h4>
+
+      <h3>What I'm Looking For</h3>
+
+      <p>A junior web development position, either full stack or front end, in a team with good mentorship and steady opportunities to try new things.</p>
+        </div>
+        <div class="modal-footer">
+          <!-- Foot -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalProjects" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">Projects</h4>
+        </div>
+        <div class="modal-body">
+          <h3>Bio</h3>
+      <p>I just graduated from General Assembly's Web Development Immersive, a 12-week full-time bootcamp designed to stuff as much practical web dev knowledge as can fit into its students' brains. I've been dabbling in HTML/CSS/Wordpress designs since I was in middle school, so I was delighted to finally dive into web development head-on. I have learned an amazing amount in three months, and while I know I have much more to tackle, I’m excited to go out and put my knowledge to use improving the Web.</p>
+
+        </div>
+        <div class="modal-footer">
+          <!-- Foot -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">Contact Me</h4>
+        </div>
+        <div class="modal-body">
+          <h3>Bio</h3>
+      <p>I just graduated from General Assembly's Web Development Immersive, a 12-week full-time bootcamp designed to stuff as much practical web dev knowledge as can fit into its students' brains. I've been dabbling in HTML/CSS/Wordpress designs since I was in middle school, so I was delighted to finally dive into web development head-on. I have learned an amazing amount in three months, and while I know I have much more to tackle, I’m excited to go out and put my knowledge to use improving the Web.</p>
+
+        </div>
+        <div class="modal-footer">
+          <!-- Foot -->
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bower_components/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
   </body>
 </html>
+
+
+<!-- One way to do modals: -->
+<!--     <div class="colThird">
+      <div class="bobble"><
+        <a href="#modalAboutMe"><h2>About Me</h2></a>
+        <div id="modalAboutMe" class="modalDialog">
+          <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>About Me</h2>
+            <p>Hello!</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
