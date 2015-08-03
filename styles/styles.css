@@ -32,6 +32,16 @@ body {
   padding: 5em 2em 2em 4em;
 }
 
+.modal-title {
+  font-size: 2.5em;
+}
+
+.modal-header {
+  background-color: #00CCFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
 h1 {
   font-family: 'Pacifico' serif;
   color: #000033;
@@ -49,6 +59,7 @@ h4 {
 }
 
 .backgroundImg {
+  background-color: #000066;
   background-image: url("imgs/backgroundimg.jpg");
   background-size: 100% 100%;
   width: 100%;
